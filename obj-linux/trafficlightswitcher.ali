@@ -1,0 +1,48 @@
+V "GNAT Lib v2012"
+A -O2
+A -Werror=format-security
+A -g
+A -gnata
+A -gnato
+A -gnatwa
+A -gnatVa
+A -gnat12
+A -gnatA
+P ZX
+R nnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U trafficlightswitcher%b  trafficlightswitcher.adb  5308557a NE OO SU
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W hwif%s		hwif.ads		hwif.ali
+W hwif_types%s		hwif_types.ads		hwif_types.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+D ada.ads		20120510125803 3ffc8e18
+D a-calend.ads		20120510125748 d86d6c8c
+D a-caldel.ads		20120510125748 9f20b83d
+D a-unccon.ads		20120510125801 f9eb8f06
+D hwif.ads		20170503170241 e3b3d640
+D hwif_types.ads	20170503170241 0a0ad0ed
+D interfac.ads		20120510125815 129923ea
+D mmap.ads		20170503170241 d61c1607
+D system.ads		20120510125846 eb6e42ba
+D s-exctab.ads		20120510125824 66e51330
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D trafficlightswitcher.adb  20170531160840 bab153d7
+X 5 hwif.ads
+8K9*HWIF 50e9 14|1w6 1r15
+17E9*Direction 17e48 14|3r42
+18A9*Direction_Octet(6|7M9)<17E9>
+23a4*Traffic_Light{18A9} 14|6r13 10r7 12m7 14m7 16r10 18m7 20m9
+X 6 hwif_types.ads
+3K9*HWIF_Types 12e15 14|2w6 2r22
+7M9*Octet<7|55M9>
+X 7 interfac.ads
+55M9*Unsigned_8
+X 14 trafficlightswitcher.adb
+3U11*TrafficLightSwitcher 3b11 3>33 22t4
+3e33 dir{5|17E9} 6r27 10r21 12r21 14r21 16r24 18r21 20r23
+5l7 AmberGuard 8l16 8e26
+

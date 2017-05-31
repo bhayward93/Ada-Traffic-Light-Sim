@@ -1,0 +1,45 @@
+V "GNAT Lib v2012"
+A -O2
+A -Werror=format-security
+A -g
+A -gnata
+A -gnato
+A -gnatwa
+A -gnatVa
+A -gnat12
+A -gnatA
+P ZX
+R nnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U switcher%b		switcher.adb		ab951a9f NE OO SU
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W hwif%s		hwif.ads		hwif.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+D ada.ads		20120510125803 3ffc8e18
+D a-calend.ads		20120510125748 d86d6c8c
+D a-caldel.ads		20120510125748 9f20b83d
+D a-unccon.ads		20120510125801 f9eb8f06
+D hwif.ads		20170503170241 e3b3d640
+D hwif_types.ads	20170503170241 0a0ad0ed
+D interfac.ads		20120510125815 129923ea
+D mmap.ads		20170503170241 d61c1607
+D switcher.adb		20170531150416 4826ccdf
+D system.ads		20120510125846 eb6e42ba
+D s-exctab.ads		20120510125824 66e51330
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+X 5 hwif.ads
+8K9*HWIF 50e9 9|3w6 3r15
+17E9*Direction 17e48 9|5r30
+18A9*Direction_Octet(6|7M9)<17E9>
+23a4*Traffic_Light{18A9} 9|7m7 9m7 11m7
+X 6 hwif_types.ads
+7M9*Octet<7|55M9>
+X 7 interfac.ads
+55M9*Unsigned_8
+X 9 switcher.adb
+5U11*Switcher 5b11 5>21 12t4
+5e21 dir{5|17E9} 7r21 9r21 11r21
+

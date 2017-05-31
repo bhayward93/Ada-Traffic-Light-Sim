@@ -1,0 +1,67 @@
+V "GNAT Lib v2012"
+M P W=b
+A -O2
+A -Werror=format-security
+A -g
+A -gnata
+A -gnato
+A -gnatwa
+A -gnatVa
+A -gnat12
+A -gnatA
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U controller%b		controller.adb		5b327fd5 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W hwif%s		hwif.ads		hwif.ali
+W trafficlightswitcher%b  trafficlightswitcher.adb  trafficlightswitcher.ali
+
+D ada.ads		20120510125803 3ffc8e18
+D a-calend.ads		20120510125748 d86d6c8c
+D a-caldel.ads		20120510125748 9f20b83d
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125753 52ecdc1b
+D a-ioexce.ads		20120510125753 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125759 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-unccon.ads		20120510125801 f9eb8f06
+D controller.adb	20170531160909 3a5d0f96
+D hwif.ads		20170503170241 e3b3d640
+D hwif_types.ads	20170503170241 0a0ad0ed
+D interfac.ads		20120510125815 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D mmap.ads		20170503170241 d61c1607
+D system.ads		20120510125846 eb6e42ba
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125825 443b9d66
+D s-finmas.ads		20120510125825 b95bb341
+D s-finroo.ads		20120510125825 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-soflin.ads		20120510125833 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+D trafficlightswitcher.adb  20170531160840 bab153d7
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 1r23
+X 9 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+263U14*Put_Line 11|10s4
+X 11 controller.adb
+6U11*Controller 6b11 11l5 11t15
+X 12 hwif.ads
+8K9*HWIF 11|4w6 4r15 12|50e9
+17n23*North{17E9} 11|9r25
+X 34 trafficlightswitcher.adb
+3U11*TrafficLightSwitcher 11|3w6 9s4
+
