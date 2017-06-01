@@ -30,19 +30,19 @@ D s-exctab.ads		20120510125824 66e51330
 D s-stalib.ads		20120510125834 f78bcf95
 D s-stoele.ads		20120510125834 facd7d98
 D s-stoele.adb		20120510125834 afc5dc80
-D trafficlightswitcher.adb  20170531160840 bab153d7
+D trafficlightswitcher.adb  20170601133035 bab153d7
 X 5 hwif.ads
 8K9*HWIF 50e9 14|1w6 1r15
 17E9*Direction 17e48 14|3r42
 18A9*Direction_Octet(6|7M9)<17E9>
-23a4*Traffic_Light{18A9} 14|6r13 10r7 12m7 14m7 16r10 18m7 20m9
+23a4*Traffic_Light{18A9} 14|6r13 9r7 11m7 13m7 15r10 17m7 19m9
 X 6 hwif_types.ads
 3K9*HWIF_Types 12e15 14|2w6 2r22
 7M9*Octet<7|55M9>
 X 7 interfac.ads
 55M9*Unsigned_8
 X 14 trafficlightswitcher.adb
-3U11*TrafficLightSwitcher 3b11 3>33 22t4
-3e33 dir{5|17E9} 6r27 10r21 12r21 14r21 16r24 18r21 20r23
+3U11*TrafficLightSwitcher 3b11 3>33 21t4
+3e33 dir{5|17E9} 6r27 9r21 11r21 13r21 15r24 17r21 19r23
 5l7 AmberGuard 8l16 8e26
 

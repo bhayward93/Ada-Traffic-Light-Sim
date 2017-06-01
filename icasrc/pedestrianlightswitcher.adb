@@ -1,25 +1,25 @@
 with HWIF;use HWIF;
+with HWIF_Types; use HWIF_Types;
+with Ada.Text_IO; use Ada.Text_IO;
 
 procedure PedestrianLightSwitcher (dir : in Direction) is
 begin
-   if Pedestrian_Light = 1 then
-        SafeCrossingGuard:  	
-	loop         
-             if ((Traffic_Light(North) = 4)&
-       	         (Traffic_Light(South) = 4)&
-   	         (Traffic_Light(East)  = 4)&
-                 (Traffic_Light(West)  = 4)) then
-       		 exit SafeCrossingGuard;
-            end if
-            delay 1.0; --Awaiting all lights to be red.
-         	Put_Line("Awaiting all lights being red.") 
-   	end loop SafeCrossingGuard;
+	loop
+            exit when ((Traffic_Light(North) = 4) and
+       	               (Traffic_Light(South) = 4) and
+   	               (Traffic_Light(East)  = 4) and
+                       (Traffic_Light(West)  = 4));
+        delay 1.0;
+        Put_Line("Awaiting all lights being red.");
+   	end loop;
 
-      Pedestrian_Light(dir) := 0 --Light off. Walk.
-      --Check criteria; may just need to turn all lights off as all lights should be red at this point.
-   elsif Pedestrian_Light = 0 then
-      delay 5.0 --Check this delay in the criteria; this is the time peds are allowed to walk.
-      Pedestrian_Light(dir) := 1 --Light on
-   end if;`
+	Pedestrian_Wait(dir)  := 0; 			--Wait light off. - Check criteria, maybe add delay.
+   	Pedestrian_Light(dir) := 2;			--Green light on.
+   delay 6.0; 						--Req: 6 seconds of pedestrian green time.
+   	Pedestrian_Light(dir) := 1;
+
 end;
 
+--red, amber and green lights for motor vehicles
+--red and green lights for pedestrians,
+--a button for pedestrians to press,

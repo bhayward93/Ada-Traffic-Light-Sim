@@ -10,12 +10,13 @@ A -gnatVa
 A -gnat12
 A -gnatA
 P ZX
-R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
 
-U controller%b		controller.adb		5b327fd5 NE OO SU
-W ada%s			ada.ads			ada.ali
-W ada.text_io%s		a-textio.adb		a-textio.ali
+U controller%b		controller.adb		5aed7b59 NE OO SU
+W emergencyvehicleoverride%b  emergencyvehicleoverride.adb  emergencyvehicleoverride.ali
 W hwif%s		hwif.ads		hwif.ali
+W hwif_types%s		hwif_types.ads		hwif_types.ali
+W pedestrianlightswitcher%b  pedestrianlightswitcher.adb  pedestrianlightswitcher.ali
 W trafficlightswitcher%b  trafficlightswitcher.adb  trafficlightswitcher.ali
 
 D ada.ads		20120510125803 3ffc8e18
@@ -28,12 +29,14 @@ D a-stream.ads		20120510125756 2ca4ee37
 D a-tags.ads		20120510125759 6c0509d0
 D a-textio.ads		20120510125800 386df5d4
 D a-unccon.ads		20120510125801 f9eb8f06
-D controller.adb	20170531160909 3a5d0f96
+D controller.adb	20170601140726 4f6c7937
+D emergencyvehicleoverride.adb  20170601140702 69cfee9b
 D hwif.ads		20170503170241 e3b3d640
 D hwif_types.ads	20170503170241 0a0ad0ed
 D interfac.ads		20120510125815 129923ea
 D i-cstrea.ads		20120510125814 1bd72c32
 D mmap.ads		20170503170241 d61c1607
+D pedestrianlightswitcher.adb  20170601134721 2f46b98f
 D system.ads		20120510125846 eb6e42ba
 D s-crtl.ads		20120510125824 ac77b159
 D s-exctab.ads		20120510125824 66e51330
@@ -51,17 +54,24 @@ D s-stopoo.ads		20120510125834 7b8fbeee
 D s-traent.ads		20120510125838 5221ee41
 D s-unstyp.ads		20120510125838 6ae15c76
 D s-wchcon.ads		20120510125840 bfeb2e3d
-D trafficlightswitcher.adb  20170531160840 bab153d7
-X 1 ada.ads
-16K9*Ada 19e8 11|1r6 1r23
-X 9 a-textio.ads
-49K13*Text_IO 471e16 11|1w10 1r27
-263U14*Put_Line 11|10s4
+D trafficlightswitcher.adb  20170601133035 bab153d7
 X 11 controller.adb
-6U11*Controller 6b11 11l5 11t15
-X 12 hwif.ads
-8K9*HWIF 11|4w6 4r15 12|50e9
-17n23*North{17E9} 11|9r25
-X 34 trafficlightswitcher.adb
-3U11*TrafficLightSwitcher 11|3w6 9s4
+9U11*Controller 9b11 22l5 22t15
+X 12 emergencyvehicleoverride.adb
+5U11*EmergencyVehicleOverride 11|3w6 18s7
+X 13 hwif.ads
+8K9*HWIF 11|5w6 5r15 13|50e9
+17n23*North{17E9} 11|11r25 13r25 14r31 17r32 18r32
+18A9*Direction_Octet(14|7M9)<17E9>
+41a4*Pedestrian_Button{18A9} 11|13r7
+47a4*Emergency_Vehicle_Sensor{18A9} 11|17r7
+X 14 hwif_types.ads
+3K9*HWIF_Types 11|6w6 6r22 14|12e15
+7M9*Octet<15|55M9>
+X 15 interfac.ads
+55M9*Unsigned_8
+X 18 pedestrianlightswitcher.adb
+5U11*PedestrianLightSwitcher 11|2w6 14s7
+X 36 trafficlightswitcher.adb
+3U11*TrafficLightSwitcher 11|1w6 11s4
 
