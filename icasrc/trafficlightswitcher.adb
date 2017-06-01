@@ -1,10 +1,12 @@
 with HWIF;use HWIF;
 with HWIF_Types; use HWIF_Types;
+with Ada.Text_IO; use Ada.Text_IO;
 procedure TrafficLightSwitcher (dir : in Direction) is
 begin
       AmberGuard: 				--Acts as a guard incase the procedure is invoked whilst the light is in an amber state.
       while Traffic_Light(dir) = 2 loop
-         delay 1.0; 				--Delay 1s and break out of the loop if the light is no longer amber
+      delay 1.0; 				--Delay 1s and break out of the loop if the light is no longer amber
+      Put_Line("In the amberguard loop");
       end loop AmberGuard;
    if Traffic_Light(dir) = 4 then 		--Red
    						--No delay here; maybe should add one.
