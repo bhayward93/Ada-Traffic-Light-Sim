@@ -8,7 +8,6 @@ with HWIF_Types; use HWIF_Types;
 procedure Controller is
 begin
    loop
-
  	if Pedestrian_Button(North) = 1 then --Will need to be a sub procedure taking in param of direction.
   	    Put_Line("Pedestrian button pressed, switcher being triggered");
   	    PedestrianLightSwitcher(North); 	--Temporary call to the north light for development.

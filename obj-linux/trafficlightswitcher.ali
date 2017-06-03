@@ -9,12 +9,10 @@ A -gnatVa
 A -gnat12
 A -gnatA
 P ZX
-R nnnnnnnnnvnnnnnnnnnnnnnvnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+R nnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
 
-U trafficlightswitcher%b  trafficlightswitcher.adb  864539f7 NE OO SU
-W ada%s			ada.ads			ada.ali
+U trafficlightswitcher%b  trafficlightswitcher.adb  11fca3c3 NE OO SU
 W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
-W ada.text_io%s		a-textio.adb		a-textio.ali
 W hwif%s		hwif.ads		hwif.ali
 W hwif_types%s		hwif_types.ads		hwif_types.ali
 W interfaces%s		interfac.ads		interfac.ali
@@ -22,53 +20,28 @@ W interfaces%s		interfac.ads		interfac.ali
 D ada.ads		20120510125803 3ffc8e18
 D a-calend.ads		20120510125748 d86d6c8c
 D a-caldel.ads		20120510125748 9f20b83d
-D a-except.ads		20120510125752 ec1b44c1
-D a-finali.ads		20120510125753 52ecdc1b
-D a-ioexce.ads		20120510125753 8b9de6cd
-D a-stream.ads		20120510125756 2ca4ee37
-D a-tags.ads		20120510125759 6c0509d0
-D a-textio.ads		20120510125800 386df5d4
 D a-unccon.ads		20120510125801 f9eb8f06
 D hwif.ads		20170503170241 e3b3d640
 D hwif_types.ads	20170503170241 0a0ad0ed
 D interfac.ads		20120510125815 129923ea
-D i-cstrea.ads		20120510125814 1bd72c32
 D mmap.ads		20170503170241 d61c1607
 D system.ads		20120510125846 eb6e42ba
-D s-crtl.ads		20120510125824 ac77b159
 D s-exctab.ads		20120510125824 66e51330
-D s-ficobl.ads		20120510125825 443b9d66
-D s-finmas.ads		20120510125825 b95bb341
-D s-finroo.ads		20120510125825 4ff27390
-D s-parame.ads		20120510125832 b6e20cc0
-D s-pooglo.ads		20120510125832 542f33d0
-D s-soflin.ads		20120510125833 24c8153c
-D s-stache.ads		20120510125834 596fc1b4
 D s-stalib.ads		20120510125834 f78bcf95
 D s-stoele.ads		20120510125834 facd7d98
 D s-stoele.adb		20120510125834 afc5dc80
-D s-stopoo.ads		20120510125834 7b8fbeee
-D s-traent.ads		20120510125838 5221ee41
-D s-unstyp.ads		20120510125838 6ae15c76
-D s-wchcon.ads		20120510125840 bfeb2e3d
-D trafficlightswitcher.adb  20170601160030 5791ca8e
-X 1 ada.ads
-16K9*Ada 19e8 33|3r6 3r23
-X 9 a-textio.ads
-49K13*Text_IO 471e16 33|3w10 3r27
-263U14*Put_Line 33|9s7
-X 11 hwif.ads
-8K9*HWIF 50e9 33|1w6 1r15
-17E9*Direction 17e48 33|4r42
-18A9*Direction_Octet(12|7M9)<17E9>
-23a4*Traffic_Light{18A9} 33|7r13 11r7 13m7 15m7 17r10 19m7 21m9
-X 12 hwif_types.ads
-3K9*HWIF_Types 12e15 33|2w6 2r22
-7M9*Octet<13|55M9>
-X 13 interfac.ads
+D trafficlightswitcher.adb  20170603143638 f845a56e
+X 5 hwif.ads
+8K9*HWIF 50e9 14|1w6 1r15
+17E9*Direction 17e48 14|4r42
+18A9*Direction_Octet(6|7M9)<17E9>
+23a4*Traffic_Light{18A9} 14|11r7 12m7 14m7 16m7 18r10 19m7 21m7
+X 6 hwif_types.ads
+3K9*HWIF_Types 12e15 14|2w6 2r22
+7M9*Octet<7|55M9>
+X 7 interfac.ads
 55M9*Unsigned_8
-X 33 trafficlightswitcher.adb
+X 14 trafficlightswitcher.adb
 4U11*TrafficLightSwitcher 4b11 4>33 23t4
-4e33 dir{11|17E9} 7r27 11r21 13r21 15r21 17r24 19r21 21r23
-6l7 AmberGuard 10l16 10e26
+4e33 dir{5|17E9} 11r21 12r21 14r21 16r21 18r24 19r21 21r21
 
