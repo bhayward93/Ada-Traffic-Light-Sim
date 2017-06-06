@@ -11,7 +11,7 @@ A -gnatA
 P ZX
 R nnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
 
-U trafficlightswitcher%b  trafficlightswitcher.adb  11fca3c3 NE OO SU
+U trafficlightswitcher%b  trafficlightswitcher.adb  af4a8154 NE OO SU
 W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W hwif%s		hwif.ads		hwif.ali
 W hwif_types%s		hwif_types.ads		hwif_types.ali
@@ -30,18 +30,18 @@ D s-exctab.ads		20120510125824 66e51330
 D s-stalib.ads		20120510125834 f78bcf95
 D s-stoele.ads		20120510125834 facd7d98
 D s-stoele.adb		20120510125834 afc5dc80
-D trafficlightswitcher.adb  20170603143638 f845a56e
+D trafficlightswitcher.adb  20170606161949 46f387f9
 X 5 hwif.ads
 8K9*HWIF 50e9 14|1w6 1r15
 17E9*Direction 17e48 14|4r42
 18A9*Direction_Octet(6|7M9)<17E9>
-23a4*Traffic_Light{18A9} 14|11r7 12m7 14m7 16m7 18r10 19m7 21m7
+23a4*Traffic_Light{18A9} 14|8r7 10m7 12m7 15r10 16m7 18m7
 X 6 hwif_types.ads
 3K9*HWIF_Types 12e15 14|2w6 2r22
 7M9*Octet<7|55M9>
 X 7 interfac.ads
 55M9*Unsigned_8
 X 14 trafficlightswitcher.adb
-4U11*TrafficLightSwitcher 4b11 4>33 23t4
-4e33 dir{5|17E9} 11r21 12r21 14r21 16r21 18r24 19r21 21r21
+4U11*TrafficLightSwitcher 4b11 4>33 20t4
+4e33 dir{5|17E9} 8r21 10r21 12r21 15r24 16r21 18r21
 
