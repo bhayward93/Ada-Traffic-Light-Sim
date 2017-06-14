@@ -30,7 +30,7 @@ D s-exctab.ads		20120510125824 66e51330
 D s-stalib.ads		20120510125834 f78bcf95
 D s-stoele.ads		20120510125834 facd7d98
 D s-stoele.adb		20120510125834 afc5dc80
-D trafficlightswitcher.adb  20170606161949 46f387f9
+D trafficlightswitcher.adb  20170614171915 46f387f9
 X 5 hwif.ads
 8K9*HWIF 50e9 14|1w6 1r15
 17E9*Direction 17e48 14|4r42
